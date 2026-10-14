@@ -1,0 +1,114 @@
+.quadrado {
+  width: 358px;
+  height: 358px;
+  background-color: #f18219; /* Cor laranja */
+  border-radius: 2px;
+  margin-top: 162px;
+  margin-left: 620px;
+  box-sizing: border-box;    /* 👈 ESSA LINHA impede que o padding quebre o tamanho do quadrado */
+  padding: 20px;             /* 👈 ESSA LINHA controla a distância dos itens até a borda */
+
+  /* O Flexbox fica AQUI no elemento pai */
+  display: flex;
+  flex-direction: column;    /* Coloca o input e o botão um embaixo do outro */
+  justify-content: center;   /* Centraliza verticalmente */
+  align-items: center;       /* Centraliza horizontalmente (mude para flex-end se quiser na direita) */
+  gap: 20px;                 /* 👈 ESSA LINHA controla o espaço entre o input e o botão */
+
+
+    transform: translateX(-26px);
+}
+
+input {
+  width: 100%;               /* Ocupa a largura disponível do quadrado */
+  padding: 8px;
+  border: none;
+  border-radius: 4px;     
+  box-sizing: border-box;
+
+}
+
+button {
+  width: 100%;               /* Opcional: faz o botão ficar do mesmo tamanho do input */
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: #010118;
+  cursor: pointer;
+  color: azure;
+  margin-top: 10px;
+}
+
+.button2{
+     width: 100%;               /* Opcional: faz o botão ficar do mesmo tamanho do input */
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+  background-color: #010118;
+  cursor: pointer;
+  color: rgb(214, 214, 225);
+
+margin-top: 8px;
+
+
+}
+.input2{
+    margin: 6px;
+    padding: 10px;
+}
+
+nav{
+    padding: 8px;
+    background-color: #f18219;
+    border: #010118;
+    text-align: center;
+    font-size: 33px;
+    height: 42px;
+}
+
+ body {
+  /* 👈 O link direto extraído para a imagem que você escolheu */
+  background-image: url("ITAU.jpg"); 
+  
+  /* Faz a imagem esticar e cobrir toda a tela sem distorcer */
+  background-size: cover; 
+  
+  /* Centraliza a imagem na tela */
+  background-position: center; 
+  
+  /* Impede que a foto se repita se a tela for muito grande */
+  background-repeat: no-repeat; 
+  
+  /* Mantém a imagem estática lá no fundo ao rolar a página */
+  background-attachment: fixed; 
+  
+  min-height: 100vh; 
+  margin: 0;
+}
+
+
+
+
+footer{
+    
+    text-align: center;
+    
+     padding-top: 20px; 
+       margin: 0; 
+       margin-top: 117px;
+       
+     
+    
+    
+
+}
+
+
+img{
+     width: 37px;
+    height: 38px;
+    transform: translate(999px, -20px);
+    border-radius: 3px;
+margin-top: 120px;
+
+}
